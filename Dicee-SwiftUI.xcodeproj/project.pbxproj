@@ -11,6 +11,7 @@
 		859D99032A585CB70005AE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D99022A585CB70005AE27 /* ContentView.swift */; };
 		859D99052A585CB90005AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859D99042A585CB90005AE27 /* Assets.xcassets */; };
 		859D99082A585CB90005AE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859D99072A585CB90005AE27 /* Preview Assets.xcassets */; };
+		859D99102A587CEF0005AE27 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D990F2A587CEF0005AE27 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		859D99022A585CB70005AE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		859D99042A585CB90005AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859D99072A585CB90005AE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		859D990F2A587CEF0005AE27 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				859D99002A585CB70005AE27 /* Dicee_SwiftUIApp.swift */,
-				859D99022A585CB70005AE27 /* ContentView.swift */,
+				859D990E2A587CDD0005AE27 /* View */,
 				859D99042A585CB90005AE27 /* Assets.xcassets */,
 				859D99062A585CB90005AE27 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				859D99072A585CB90005AE27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		859D990E2A587CDD0005AE27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				859D99022A585CB70005AE27 /* ContentView.swift */,
+				859D990F2A587CEF0005AE27 /* DiceView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				859D99032A585CB70005AE27 /* ContentView.swift in Sources */,
+				859D99102A587CEF0005AE27 /* DiceView.swift in Sources */,
 				859D99012A585CB70005AE27 /* Dicee_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
